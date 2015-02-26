@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - system_trump@localhost" uuid="b5f61104-f238-4f4b-95b6-c1ab2a610d4f">
+      <secret-storage>master_key</secret-storage>
+      <user-name>pi</user-name>
+      <schema-pattern>system_trump.*</schema-pattern>
+      <default-schemas>system_trump.*</default-schemas>
+    </data-source>
+  </component>
+</project>
