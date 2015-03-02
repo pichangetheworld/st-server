@@ -4,6 +4,9 @@
  * User: pchan
  * Date: 15/03/02
  */
+
+// Helper method to get a string description for an HTTP status code
+// From http://www.gen-x-design.com/archives/create-a-rest-api-with-php/
 function getStatusCodeMessage($status)
 {
     // these could be stored in a .ini file and loaded
