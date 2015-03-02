@@ -15,16 +15,14 @@ class Auth {
 
     // Constructor - open DB connection
     function __construct() {
-        $host = "localhost";
+        $host = "192.168.211.191";
         $user = "pi";
         $pass = "change*";
         $db = "system_trump";
         $this->db = new mysqli($host, $user, $pass, $db);
         $this->db->autocommit(FALSE);
         if (mysqli_connect_error()) {
-            echo 'There was an error with your connection: '. mysqli_connect_error();
-        } else {
-            print("Constructor, db got created " . $this->db->info . "\n");
+            printf("There was an error with your connection: %s\n", mysqli_connect_error());
         }
     }
 
@@ -71,8 +69,6 @@ class Auth {
             $this->db->commit();
         } else {
             print_r("NOOOO NOT VALID\n");
-            print_r("ID IS " . $_POST["uuid"] . "\n");
-            print_r("ID IS " . $_POST["auth_token"] . "\n");
             print_r(file_get_contents('php://input'));
         }
     }}

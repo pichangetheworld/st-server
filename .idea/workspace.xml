@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a335129d-8b9e-4f0d-8ace-af39acdc1b82" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/update_deck.php" afterPath="$PROJECT_DIR$/update_deck.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/auth.php" afterPath="$PROJECT_DIR$/auth.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="st-server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,20 +31,20 @@
       <file leaf-file-name="test.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-25.833334" vertical-offset="295" max-vertical-offset="1725">
-              <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+            <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="1725">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding>
-                <marker date="1425275733028" expanded="true" signature="1856:1915" placeholder="SELECT uuid,..users..." />
+                <marker date="1425278276876" expanded="true" signature="1856:1915" placeholder="SELECT uuid,..users..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="update_deck.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="update_deck.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/update_deck.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17620137" vertical-offset="988" max-vertical-offset="1425">
-              <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
+            <state vertical-scroll-proportion="-3.8333333" vertical-offset="988" max-vertical-offset="1425">
+              <caret line="76" column="6" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
               <folding>
                 <marker date="1425277208476" expanded="true" signature="1678:1702" placeholder="SELECT * fro..user_cards..." />
                 <marker date="1425277208476" expanded="true" signature="1705:2020" placeholder="UPDATE user_..." />
@@ -53,17 +54,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="auth.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="auth.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/auth.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="1260">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.72540045" vertical-offset="763" max-vertical-offset="1200">
+              <caret line="76" column="76" selection-start-line="76" selection-start-column="76" selection-end-line="76" selection-end-column="76" />
               <folding>
-                <marker date="1425276919388" expanded="true" signature="1443:1497" placeholder="INSERT INTO ..." />
-                <marker date="1425276919388" expanded="true" signature="1443:1535" placeholder="INSERT INTO ..." />
-                <marker date="1425276919388" expanded="true" signature="1443:1543" placeholder="INSERT INTO ..." />
-                <marker date="1425276919388" expanded="true" signature="1443:1554" placeholder="INSERT INTO ..." />
-                <marker date="1425276919388" expanded="true" signature="1443:1634" placeholder="INSERT INTO ..." />
+                <marker date="1425281917671" expanded="true" signature="1363:1417" placeholder="INSERT INTO ..." />
+                <marker date="1425281917671" expanded="true" signature="1363:1455" placeholder="INSERT INTO ..." />
+                <marker date="1425281917671" expanded="true" signature="1363:1463" placeholder="INSERT INTO ..." />
+                <marker date="1425281917671" expanded="true" signature="1363:1474" placeholder="INSERT INTO ..." />
+                <marker date="1425281917671" expanded="true" signature="1363:1554" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -100,10 +101,10 @@
         <option value="$PROJECT_DIR$/Main.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/util.php" />
-        <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/signin_user.php" />
-        <option value="$PROJECT_DIR$/auth.php" />
         <option value="$PROJECT_DIR$/update_deck.php" />
+        <option value="$PROJECT_DIR$/test.php" />
+        <option value="$PROJECT_DIR$/auth.php" />
       </list>
     </option>
   </component>
@@ -167,7 +168,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="web.server" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="FullScreen" value="false" />
@@ -326,7 +327,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1590">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1425275733028" expanded="true" signature="1856:1915" placeholder="SELECT uuid,..users..." />
+            <marker date="1425278276876" expanded="true" signature="1856:1915" placeholder="SELECT uuid,..users..." />
           </folding>
         </state>
       </provider>
@@ -336,7 +337,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1650">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1425275733028" expanded="true" signature="1856:1915" placeholder="SELECT uuid,..users..." />
+            <marker date="1425278276876" expanded="true" signature="1856:1915" placeholder="SELECT uuid,..users..." />
           </folding>
         </state>
       </provider>
@@ -346,16 +347,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1650">
           <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
           <folding>
-            <marker date="1425275733028" expanded="true" signature="1856:1915" placeholder="SELECT uuid,..users..." />
+            <marker date="1425278276876" expanded="true" signature="1856:1915" placeholder="SELECT uuid,..users..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.5" vertical-offset="555" max-vertical-offset="1065">
-          <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -369,36 +362,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.833334" vertical-offset="295" max-vertical-offset="1725">
-          <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="1725">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding>
-            <marker date="1425275733028" expanded="true" signature="1856:1915" placeholder="SELECT uuid,..users..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="1260">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding>
-            <marker date="1425276919388" expanded="true" signature="1443:1497" placeholder="INSERT INTO ..." />
-            <marker date="1425276919388" expanded="true" signature="1443:1535" placeholder="INSERT INTO ..." />
-            <marker date="1425276919388" expanded="true" signature="1443:1543" placeholder="INSERT INTO ..." />
-            <marker date="1425276919388" expanded="true" signature="1443:1554" placeholder="INSERT INTO ..." />
-            <marker date="1425276919388" expanded="true" signature="1443:1634" placeholder="INSERT INTO ..." />
+            <marker date="1425278276876" expanded="true" signature="1856:1915" placeholder="SELECT uuid,..users..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/update_deck.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17620137" vertical-offset="988" max-vertical-offset="1425">
-          <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
+        <state vertical-scroll-proportion="-3.8333333" vertical-offset="988" max-vertical-offset="1425">
+          <caret line="76" column="6" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
           <folding>
             <marker date="1425277208476" expanded="true" signature="1678:1702" placeholder="SELECT * fro..user_cards..." />
             <marker date="1425277208476" expanded="true" signature="1705:2020" placeholder="UPDATE user_..." />
             <marker date="1425277208476" expanded="true" signature="1705:2103" placeholder="UPDATE user_..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.5" vertical-offset="555" max-vertical-offset="1065">
+          <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72540045" vertical-offset="763" max-vertical-offset="1200">
+          <caret line="76" column="76" selection-start-line="76" selection-start-column="76" selection-end-line="76" selection-end-column="76" />
+          <folding>
+            <marker date="1425281917671" expanded="true" signature="1363:1417" placeholder="INSERT INTO ..." />
+            <marker date="1425281917671" expanded="true" signature="1363:1455" placeholder="INSERT INTO ..." />
+            <marker date="1425281917671" expanded="true" signature="1363:1463" placeholder="INSERT INTO ..." />
+            <marker date="1425281917671" expanded="true" signature="1363:1474" placeholder="INSERT INTO ..." />
+            <marker date="1425281917671" expanded="true" signature="1363:1554" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
