@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a335129d-8b9e-4f0d-8ace-af39acdc1b82" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/update_deck.php" afterPath="$PROJECT_DIR$/updatedeck.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/auth.php" afterPath="$PROJECT_DIR$/auth.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/updatedeck.php" afterPath="$PROJECT_DIR$/updatedeck.php" />
     </list>
     <ignored path="st-server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,12 +42,12 @@
       <file leaf-file-name="updatedeck.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/updatedeck.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7923077" vertical-offset="145" max-vertical-offset="1425">
-              <caret line="48" column="48" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.76153845" vertical-offset="0" max-vertical-offset="1425">
+              <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
               <folding>
-                <marker date="1425285951199" expanded="true" signature="1757:1781" placeholder="SELECT * fro..user_cards..." />
-                <marker date="1425285951199" expanded="true" signature="1784:2022" placeholder="UPDATE user_..." />
-                <marker date="1425285951199" expanded="true" signature="1784:2108" placeholder="UPDATE user_..." />
+                <marker date="1425286082783" expanded="true" signature="1756:1780" placeholder="SELECT * fro..user_cards..." />
+                <marker date="1425286082783" expanded="true" signature="1783:2021" placeholder="UPDATE user_..." />
+                <marker date="1425286082783" expanded="true" signature="1783:2107" placeholder="UPDATE user_..." />
               </folding>
             </state>
           </provider>
@@ -396,12 +394,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/updatedeck.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7923077" vertical-offset="145" max-vertical-offset="1425">
-          <caret line="48" column="48" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.76153845" vertical-offset="0" max-vertical-offset="1425">
+          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
           <folding>
-            <marker date="1425285951199" expanded="true" signature="1757:1781" placeholder="SELECT * fro..user_cards..." />
-            <marker date="1425285951199" expanded="true" signature="1784:2022" placeholder="UPDATE user_..." />
-            <marker date="1425285951199" expanded="true" signature="1784:2108" placeholder="UPDATE user_..." />
+            <marker date="1425286082783" expanded="true" signature="1756:1780" placeholder="SELECT * fro..user_cards..." />
+            <marker date="1425286082783" expanded="true" signature="1783:2021" placeholder="UPDATE user_..." />
+            <marker date="1425286082783" expanded="true" signature="1783:2107" placeholder="UPDATE user_..." />
           </folding>
         </state>
       </provider>

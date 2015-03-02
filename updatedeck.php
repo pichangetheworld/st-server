@@ -35,7 +35,7 @@ class DeckEditor{
     /*
      * curl -d "uuid=200" -d "auth_token=1" -d "data[]={\"id\": 1,\"count\" : 13}&data[]={\"id\":2,\"count\":1}" "http://192.168.211.191:3000/updatedeck.php"
      */
-    // Main method to update the deeck
+    // Main method to update the deck
     function updateDeck() {
         error_log("Contents are " . file_get_contents('php://input'));
         $requestBody = json_decode(file_get_contents('php://input'));
