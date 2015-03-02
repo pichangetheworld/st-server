@@ -10,7 +10,7 @@
 
 require_once('util.php');
 
-class Users {
+class DeckEditor{
     private $db;
 
     // Constructor - open DB connection
@@ -90,5 +90,5 @@ class Users {
 
 // This is the first thing that gets called when this page is loaded
 // Creates a new instance of the RedeemAPI class and calls the redeem method
-$api = new Auth();
+$api = new DeckEditor();
 $api->updateDeck();
