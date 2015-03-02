@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a335129d-8b9e-4f0d-8ace-af39acdc1b82" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/update_deck.php" afterPath="$PROJECT_DIR$/updatedeck.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/auth.php" afterPath="$PROJECT_DIR$/auth.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="st-server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,31 +41,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="update_deck.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/update_deck.php">
+      <file leaf-file-name="updatedeck.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/updatedeck.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.8333333" vertical-offset="988" max-vertical-offset="1425">
-              <caret line="76" column="6" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.7923077" vertical-offset="145" max-vertical-offset="1425">
+              <caret line="48" column="48" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
               <folding>
-                <marker date="1425277208476" expanded="true" signature="1678:1702" placeholder="SELECT * fro..user_cards..." />
-                <marker date="1425277208476" expanded="true" signature="1705:2020" placeholder="UPDATE user_..." />
-                <marker date="1425277208476" expanded="true" signature="1705:2103" placeholder="UPDATE user_..." />
+                <marker date="1425285951199" expanded="true" signature="1757:1781" placeholder="SELECT * fro..user_cards..." />
+                <marker date="1425285951199" expanded="true" signature="1784:2022" placeholder="UPDATE user_..." />
+                <marker date="1425285951199" expanded="true" signature="1784:2108" placeholder="UPDATE user_..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="auth.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="auth.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auth.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56153846" vertical-offset="655" max-vertical-offset="1350">
-              <caret line="72" column="44" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
+            <state vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="1350">
+              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="25" selection-end-column="9" />
               <folding>
-                <marker date="1425284050823" expanded="true" signature="1630:1684" placeholder="INSERT INTO ..." />
-                <marker date="1425284050823" expanded="true" signature="1630:1722" placeholder="INSERT INTO ..." />
-                <marker date="1425284050823" expanded="true" signature="1630:1730" placeholder="INSERT INTO ..." />
-                <marker date="1425284050823" expanded="true" signature="1630:1741" placeholder="INSERT INTO ..." />
-                <marker date="1425284050823" expanded="true" signature="1630:1821" placeholder="INSERT INTO ..." />
+                <marker date="1425285945983" expanded="true" signature="1633:1687" placeholder="INSERT INTO ..." />
+                <marker date="1425285945983" expanded="true" signature="1633:1725" placeholder="INSERT INTO ..." />
+                <marker date="1425285945983" expanded="true" signature="1633:1733" placeholder="INSERT INTO ..." />
+                <marker date="1425285945983" expanded="true" signature="1633:1744" placeholder="INSERT INTO ..." />
+                <marker date="1425285945983" expanded="true" signature="1633:1824" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -104,6 +106,7 @@
         <option value="$PROJECT_DIR$/update_deck.php" />
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/auth.php" />
+        <option value="$PROJECT_DIR$/updatedeck.php" />
       </list>
     </option>
   </component>
@@ -112,8 +115,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.5" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="31" />
-    <option name="y" value="209" />
+    <option name="x" value="620" />
+    <option name="y" value="204" />
     <option name="width" value="1132" />
     <option name="height" value="803" />
   </component>
@@ -178,7 +181,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.update_deck.php">
+  <component name="RunManager" selected="JavaScript Debug.updatedeck.php">
     <configuration default="false" name="test.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/st-server/test.php">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
@@ -189,7 +192,7 @@
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="update_deck.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/st-server/update_deck.php">
+    <configuration default="false" name="updatedeck.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/st-server/updatedeck.php">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
@@ -229,11 +232,11 @@
     <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.test.php" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.api.php" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.update_deck.php" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.updatedeck.php" />
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.update_deck.php" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.updatedeck.php" />
         <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.api.php" />
         <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.test.php" />
       </list>
@@ -273,7 +276,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="31" y="209" width="1132" height="803" extended-state="0" />
+    <frame x="620" y="204" width="1132" height="803" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -369,18 +372,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/update_deck.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.8333333" vertical-offset="988" max-vertical-offset="1425">
-          <caret line="76" column="6" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
-          <folding>
-            <marker date="1425277208476" expanded="true" signature="1678:1702" placeholder="SELECT * fro..user_cards..." />
-            <marker date="1425277208476" expanded="true" signature="1705:2020" placeholder="UPDATE user_..." />
-            <marker date="1425277208476" expanded="true" signature="1705:2103" placeholder="UPDATE user_..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/util.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-23.875" vertical-offset="402" max-vertical-offset="1065">
@@ -391,14 +382,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/auth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56153846" vertical-offset="655" max-vertical-offset="1350">
-          <caret line="72" column="44" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
+        <state vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="1350">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="25" selection-end-column="9" />
           <folding>
-            <marker date="1425284050823" expanded="true" signature="1630:1684" placeholder="INSERT INTO ..." />
-            <marker date="1425284050823" expanded="true" signature="1630:1722" placeholder="INSERT INTO ..." />
-            <marker date="1425284050823" expanded="true" signature="1630:1730" placeholder="INSERT INTO ..." />
-            <marker date="1425284050823" expanded="true" signature="1630:1741" placeholder="INSERT INTO ..." />
-            <marker date="1425284050823" expanded="true" signature="1630:1821" placeholder="INSERT INTO ..." />
+            <marker date="1425285945983" expanded="true" signature="1633:1687" placeholder="INSERT INTO ..." />
+            <marker date="1425285945983" expanded="true" signature="1633:1725" placeholder="INSERT INTO ..." />
+            <marker date="1425285945983" expanded="true" signature="1633:1733" placeholder="INSERT INTO ..." />
+            <marker date="1425285945983" expanded="true" signature="1633:1744" placeholder="INSERT INTO ..." />
+            <marker date="1425285945983" expanded="true" signature="1633:1824" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/updatedeck.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7923077" vertical-offset="145" max-vertical-offset="1425">
+          <caret line="48" column="48" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
+          <folding>
+            <marker date="1425285951199" expanded="true" signature="1757:1781" placeholder="SELECT * fro..user_cards..." />
+            <marker date="1425285951199" expanded="true" signature="1784:2022" placeholder="UPDATE user_..." />
+            <marker date="1425285951199" expanded="true" signature="1784:2108" placeholder="UPDATE user_..." />
           </folding>
         </state>
       </provider>

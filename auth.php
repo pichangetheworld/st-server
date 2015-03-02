@@ -22,7 +22,7 @@ class Auth {
         $this->db = new mysqli($host, $user, $pass, $db);
         $this->db->autocommit(FALSE);
         if (mysqli_connect_error()) {
-            printf("There was an error with your connection: %s\n", mysqli_connect_error());
+            error_log("There was an error with your connection: %s\n", mysqli_connect_error());
         }
     }
 
