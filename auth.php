@@ -10,7 +10,7 @@
 
 require_once('util.php');
 
-class Users {
+class Auth {
     private $db;
 
     // Constructor - open DB connection
@@ -33,39 +33,26 @@ class Users {
         $this->db->close();
     }
 
-    // Curl Method for testing:
-    /*
-     * curl -d "uuid=200" -d "auth_token=1" -d "data[]={\"id\": 1,\"count\" : 13}&data[]={\"id\":2,\"count\":1}" "http://localhost:63342/st-server/update_deck.php"
-     */
-    // Main method to update the deeck
-    function updateDeck() {
+    // Main method to redeem a code
+    function signIn() {
+        // Print all users in database
         // Check for required parameters
-        if (isset($_POST["uuid"]) && isset($_POST["auth_token"])) {
+        if (isset($_POST["google_id"]) && isset($_POST["google_auth_token"])) {
             print_r("IIIIITS VALID\n");
-            print_r("ID IS " . $_POST["uuid"] . "\n");
-            print_r("TOKEN IS " . $_POST["auth_token"] . "\n");
-            // Put parameters into local variables
-            $uuid = $_POST["uuid"];
-            $entityBody = $_POST["data"];
-//            $auth_token = $_POST["auth_token"];
+            print_r("ID IS " . $_POST["google_id"] . "\n");
+            print_r("TOKEN IS " . $_POST["google_auth_token"] . "\n");
+
+            //TODO validate Google Auth token
 
             // Look up code in database
 //            $query = "SELECT * from user_cards";
-            $query = "UPDATE user_cards ";
-            $query .= "SET deck_count = (case ";
-            foreach ($entityBody as $pair) {
-                print_r("Considering pair " . $pair . "\n");
-                $item = json_decode($pair, true);
-                $query .= sprintf("when card_id=%s then %s ",$item['id'],$item['count']);
-//                     		when card_id=1 then 4
-            }
-            $query .= "else deck_count ";
-            $query .= "end)";
-            $query .= sprintf(" WHERE user_id=%s",$uuid);
+            $query = sprintf("INSERT INTO users (auth_type, google_id, coins, level)
+                              VALUES('goog', %s, 100, 0)
+                              ON DUPLICATE KEY UPDATE uuid=LAST_INSERT_ID(uuid)", $_POST["google_id"]);
             print "Query is " . $query . "\n";
             $result = $this->db->query($query);
             if ( !$result ) {
-                echo "Error code ({$this->db->errno}) : {$this->db->error}";
+                echo "Error code ({$this->db->errno}) : {$this->db->error}\n";
             } else {
                 printf("Query successfully changed %d rows.\n", $this->db->affected_rows);
 //                echo 'Query successfully changed ' . mysqli_affected_rows . " rows." . "\n";
@@ -79,6 +66,8 @@ class Users {
 //            } else {
 //                echo "0 results";
 //            }
+            $res = $this->db->insert_id;
+            printf("Returned id is %s\n", $res);
             $this->db->commit();
         } else {
             print_r("NOOOO NOT VALID\n");
@@ -91,4 +80,4 @@ class Users {
 // This is the first thing that gets called when this page is loaded
 // Creates a new instance of the RedeemAPI class and calls the redeem method
 $api = new Auth();
-$api->updateDeck();
+$api->signIn();

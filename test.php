@@ -56,6 +56,15 @@ $updated_at = 'NULL'; // automatically updated
 $coins = 10;
 $level = 1;
 
+// Print all users in database
+//        $stmt = $this->db->prepare('SELECT uuid, auth_type, created_at FROM users');
+//        $stmt->execute();
+//        $stmt->bind_result($uuid, $auth_type, $created_at);
+//        while ($stmt->fetch()) {
+//            echo "$uuid was created at $created_at!<br>";
+//        }
+//        $stmt->close();
+
 //$query = "INSERT INTO users VALUES($uuid,$auth_type,$facebook_id,$google_id,$created_at,$updated_at,$coins,$level)";
 //execute_query($query);
 
