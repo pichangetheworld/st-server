@@ -15,7 +15,7 @@ class DeckEditor{
 
     // Constructor - open DB connection
     function __construct() {
-        $host = "localhost";
+        $host = "192.168.211.191";
         $user = "pi";
         $pass = "change*";
         $db = "system_trump";
