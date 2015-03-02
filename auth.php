@@ -35,10 +35,16 @@ class Auth {
     function signIn() {
         // Print all users in database
         // Check for required parameters
-        if (isset($_POST["google_id"]) && isset($_POST["google_auth_token"])) {
-            print_r("IIIIITS VALID\n");
-            print_r("ID IS " . $_POST["google_id"] . "\n");
-            print_r("TOKEN IS " . $_POST["google_auth_token"] . "\n");
+        error_log("Contents are " . file_get_contents('php://input'));
+        $requestBody = json_decode(file_get_contents('php://input'));
+
+//        print_r($requestBody);
+        $googleId = $requestBody->{"google_id"};
+        if (isset($googleId) && isset($requestBody->{"google_auth_token"})) {
+            error_log("IIIIITS VALID");
+            error_log(file_get_contents('php://input'));
+            error_log("ID IS " . $googleId);
+            error_log("TOKEN IS " . $requestBody->{"google_auth_token"});
 
             //TODO validate Google Auth token
 
@@ -46,13 +52,13 @@ class Auth {
 //            $query = "SELECT * from user_cards";
             $query = sprintf("INSERT INTO users (auth_type, google_id, coins, level)
                               VALUES('goog', %s, 100, 0)
-                              ON DUPLICATE KEY UPDATE uuid=LAST_INSERT_ID(uuid)", $_POST["google_id"]);
-            print "Query is " . $query . "\n";
+                              ON DUPLICATE KEY UPDATE uuid=LAST_INSERT_ID(uuid)", $googleId);
+            error_log("Query is " . $query . "\n");
             $result = $this->db->query($query);
             if ( !$result ) {
                 echo "Error code ({$this->db->errno}) : {$this->db->error}\n";
             } else {
-                printf("Query successfully changed %d rows.\n", $this->db->affected_rows);
+                error_log("Query successfully changed " . $this->db->affected_rows . " rows.");
 //                echo 'Query successfully changed ' . mysqli_affected_rows . " rows." . "\n";
             }
 //            if ($result->num_rows > 0) {
@@ -64,12 +70,16 @@ class Auth {
 //            } else {
 //                echo "0 results";
 //            }
-            $res = $this->db->insert_id;
-            printf("Returned id is %s\n", $res);
+            $user_id = $this->db->insert_id;
+            error_log("Returned id is " . $user_id);
             $this->db->commit();
+
+            $data = sprintf('{ "_id":%s, "deck":"" }', $user_id);
+            header('Content-Type: application/json');
+            echo $data;
         } else {
-            print_r("NOOOO NOT VALID\n");
-            print_r(file_get_contents('php://input'));
+            error_log("NOOOO NOT VALID");
+            error_log(file_get_contents('php://input'));
         }
     }}
 

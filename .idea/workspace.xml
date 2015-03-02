@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a335129d-8b9e-4f0d-8ace-af39acdc1b82" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/auth.php" afterPath="$PROJECT_DIR$/auth.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="st-server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,14 +56,14 @@
       <file leaf-file-name="auth.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/auth.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.72540045" vertical-offset="763" max-vertical-offset="1200">
-              <caret line="76" column="76" selection-start-line="76" selection-start-column="76" selection-end-line="76" selection-end-column="76" />
+            <state vertical-scroll-proportion="0.56153846" vertical-offset="655" max-vertical-offset="1350">
+              <caret line="72" column="44" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
               <folding>
-                <marker date="1425281917671" expanded="true" signature="1363:1417" placeholder="INSERT INTO ..." />
-                <marker date="1425281917671" expanded="true" signature="1363:1455" placeholder="INSERT INTO ..." />
-                <marker date="1425281917671" expanded="true" signature="1363:1463" placeholder="INSERT INTO ..." />
-                <marker date="1425281917671" expanded="true" signature="1363:1474" placeholder="INSERT INTO ..." />
-                <marker date="1425281917671" expanded="true" signature="1363:1554" placeholder="INSERT INTO ..." />
+                <marker date="1425284050823" expanded="true" signature="1630:1684" placeholder="INSERT INTO ..." />
+                <marker date="1425284050823" expanded="true" signature="1630:1722" placeholder="INSERT INTO ..." />
+                <marker date="1425284050823" expanded="true" signature="1630:1730" placeholder="INSERT INTO ..." />
+                <marker date="1425284050823" expanded="true" signature="1630:1741" placeholder="INSERT INTO ..." />
+                <marker date="1425284050823" expanded="true" signature="1630:1821" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -73,7 +72,7 @@
       <file leaf-file-name="util.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/util.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.5" vertical-offset="555" max-vertical-offset="1065">
+            <state vertical-scroll-proportion="-23.875" vertical-offset="402" max-vertical-offset="1065">
               <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
               <folding />
             </state>
@@ -113,8 +112,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.5" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="379" />
-    <option name="y" value="132" />
+    <option name="x" value="31" />
+    <option name="y" value="209" />
     <option name="width" value="1132" />
     <option name="height" value="803" />
   </component>
@@ -168,7 +167,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="web.server" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="FullScreen" value="false" />
@@ -274,14 +273,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="379" y="132" width="1132" height="803" extended-state="0" />
+    <frame x="31" y="209" width="1132" height="803" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277311" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29831934" sideWeight="0.49949136" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29831934" sideWeight="0.49949136" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.50050867" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -384,7 +383,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/util.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.5" vertical-offset="555" max-vertical-offset="1065">
+        <state vertical-scroll-proportion="-23.875" vertical-offset="402" max-vertical-offset="1065">
           <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
           <folding />
         </state>
@@ -392,14 +391,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/auth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72540045" vertical-offset="763" max-vertical-offset="1200">
-          <caret line="76" column="76" selection-start-line="76" selection-start-column="76" selection-end-line="76" selection-end-column="76" />
+        <state vertical-scroll-proportion="0.56153846" vertical-offset="655" max-vertical-offset="1350">
+          <caret line="72" column="44" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
           <folding>
-            <marker date="1425281917671" expanded="true" signature="1363:1417" placeholder="INSERT INTO ..." />
-            <marker date="1425281917671" expanded="true" signature="1363:1455" placeholder="INSERT INTO ..." />
-            <marker date="1425281917671" expanded="true" signature="1363:1463" placeholder="INSERT INTO ..." />
-            <marker date="1425281917671" expanded="true" signature="1363:1474" placeholder="INSERT INTO ..." />
-            <marker date="1425281917671" expanded="true" signature="1363:1554" placeholder="INSERT INTO ..." />
+            <marker date="1425284050823" expanded="true" signature="1630:1684" placeholder="INSERT INTO ..." />
+            <marker date="1425284050823" expanded="true" signature="1630:1722" placeholder="INSERT INTO ..." />
+            <marker date="1425284050823" expanded="true" signature="1630:1730" placeholder="INSERT INTO ..." />
+            <marker date="1425284050823" expanded="true" signature="1630:1741" placeholder="INSERT INTO ..." />
+            <marker date="1425284050823" expanded="true" signature="1630:1821" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
